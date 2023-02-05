@@ -1,0 +1,15 @@
+
+
+
+
+1:31:50 para los que nos les abre el panel de zsh pongan esto ..   sudo apt-get update && sudo apt-get install zsh
+y listo ya pueden seguir con la perzonalizacion
+
+
+
+libdeflate-dev : Depende: libdeflate0 (= 1.7-1) pero 1.10-2~bpo11+1 va a ser instalado
+
+Pueden probar esto:
+sudo apt install libdeflate0=1.7-1
+Luego vuelves a ejecutar
+sudo apt install slim libpam0g-dev libxrandr-dev libfreetype6-dev libimlib2-dev libxft-dev
