@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="logo">
+                <img src="assets/Logo.png" alt="">
+            </div>
+            <div class="content_into">
+                <section class="content-encrypt">
+                    <div class="content-sub-into">
+                        <div class="textone">
+                           
+                            <input type="text" id="encryt" class="text" placeholder="Ingrese el texto aquí">
+                        </div>
+                      
+
+                        <div class="actions">
+                            <div class="vector">
+                                <img src="assets/Vector.png" alt="">
+                                <label for="">Solo letras minúsculas y sin acento</label>
+                            </div>
+                            <div class="botons">
+                                <button  onclick="views()" id="btn-encryt" class="actions_btn_one">Encriptar</button>
+                                <button id="btn-desencryt" class="actions_btn_two">Desncriptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="copy" class="copy">
+                    <div class="content_copy">
+                        <img src="assets/Muñeco.png" alt="Imagen" class="logo2">
+                        <p class="text2">Ningún mensaje fue encontrado</p>
+                        <label class="text3">Ingresa el texto que desees encriptar o desencriptar</label>
+                    </div>
+                </section>
+                <section id="result" class="resultado"  >
+                    <div class="cont-copy">     
+                                                         
+                        <span  id="span"></span>
+                    </div>
+                    <div class="cont-boton">
+                        <button  id="btn_copy" class="button-copy">Copiar</button>
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script type="text/javascript" src="./script.js"> </script>
+
+
+</body>
+
+
+
+
+
+</html>
+
